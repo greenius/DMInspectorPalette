@@ -14,12 +14,12 @@
 }
 
 @property (nonatomic,assign)    NSArray*    sectionViews;       // list of DMPaletteSectionView object (.contentView to see your passed view)
-@property (assign)              BOOL        useAnimations;      // YES to use layer and animations
-@property (assign)              BOOL        expandOneSectionAtATime;
+@property (nonatomic,assign)              BOOL        useAnimations;      // YES to use layer and animations
+@property (nonatomic,assign)              BOOL        expandOneSectionAtATime;
 
-@property (strong)              NSColor*    sectionHeaderDashColor;
-@property (strong)              NSColor*    sectionHeaderGradientStartColor;
-@property (strong)              NSColor*    sectionHeaderGradientEndColor;
+@property (nonatomic,strong)              NSColor*    sectionHeaderDashColor;
+@property (nonatomic,strong)              NSColor*    sectionHeaderGradientStartColor;
+@property (nonatomic,strong)              NSColor*    sectionHeaderGradientEndColor;
 
 #pragma mark - Manage section's states
 

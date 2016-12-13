@@ -44,6 +44,7 @@ float randFloat() {
     NSRect bound = NSMakeRect(20, 20, NSWidth(destinationView.frame)-50.0f, NSHeight(destinationView.frame)-80.0f);
     
     container = [[DMPaletteContainer alloc] initWithFrame:bound];
+  container.useAnimations = YES;
     [destinationView addSubview:container];
     
     container.sectionViews = [NSArray arrayWithObjects:
