@@ -156,7 +156,7 @@
 {
 	if (animated)
 	{
-		// temporarily set the document view frame to the entire contianer, to avoid flicker at bottom section
+		// temporarily set the document view frame to the entire container, to avoid flicker at bottom section
 		[[self documentView] setFrame:self.bounds];
 		
 		[NSAnimationContext beginGrouping];
